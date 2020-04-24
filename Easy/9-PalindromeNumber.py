@@ -1,9 +1,3 @@
-"""
-:type x: int
-:rtype: bool
-"""
-
-
 class Solution(object):
     def isPalindrome(self, x):
         strX = str(x)
@@ -17,3 +11,4 @@ class Solution(object):
 if __name__ == "__main__":
     # Test Cases
     print(Solution().isPalindrome(121))
+    print(Solution().isPalindrome(121654654))
